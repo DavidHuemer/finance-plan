@@ -94,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "finance-plan-web:build:production",
+              "serveTarget": "finance-plan-web:serve:production"
+            },
+            "development": {
+              "buildTarget": "finance-plan-web:build:development",
+              "serveTarget": "finance-plan-web:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

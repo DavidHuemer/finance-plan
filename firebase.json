@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "finance-plan-web",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

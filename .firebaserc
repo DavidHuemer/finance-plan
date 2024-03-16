@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "finance-plan-4ab2f": {
+      "hosting": {
+        "finance-plan-web": [
+          "finance-plan"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "finance-plan-4ab2f"
+  }
+}
