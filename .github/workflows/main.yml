@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: npm run build -- --prod
+        run: npm run build --prod
 
   test:
     name: Test
@@ -42,7 +42,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm run test -- --watch=false
+        run: npm run test --watch=false
 
   deploy:
     name: Deploy to Firebase
