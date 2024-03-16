@@ -21,7 +21,8 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
-      - run: npm test
+      - name: Tests
+      - run: npm test:ci
 
   deploy:
     name: Deploy to Firebase
